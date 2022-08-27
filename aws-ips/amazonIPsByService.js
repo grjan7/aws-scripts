@@ -1,7 +1,8 @@
+'use strict';
+
 const awsIpsByServices = async (ipv = 4, service = 'amazon') => {
 
   if (ipv == 4 || ipv == 6) {
-
   } else {
     throw new Error("IP version must be 4 or 6.")
   }
